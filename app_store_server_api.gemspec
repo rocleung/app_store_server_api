@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version = AppStoreServerApi::VERSION
 
   spec.authors = ["rocleung"]
-  spec.email = ["rocleung@mnyify.com"]
+  spec.email = ["rocleung@live.com"]
   spec.summary = "App Store Server API"
   spec.description = "Manage your customers' App Store transactions from your server."
   spec.homepage = "https://github.com/rocleung/#{spec.name}"
