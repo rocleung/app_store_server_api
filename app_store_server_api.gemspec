@@ -3,16 +3,16 @@
 require_relative "lib/app_store_server_api/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "app_store_server_api"
+  spec.name = "rocleung_apsa"
   spec.version = AppStoreServerApi::VERSION
 
-  spec.authors = ["tsaokoming"]
-  spec.email = ["tsaokoming@mnyify.com"]
+  spec.authors = ["rocleung"]
+  spec.email = ["rocleung@mnyify.com"]
   spec.summary = "App Store Server API"
   spec.description = "Manage your customers' App Store transactions from your server."
-  spec.homepage = "https://github.com/mnyify/#{spec.name}"
+  spec.homepage = "https://github.com/rocleung/#{spec.name}"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.0.0"
+  spec.required_ruby_version = ">= 2.6.9"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
@@ -35,7 +35,11 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
-  spec.add_dependency "jwt", "~> 2.8"
+  spec.add_dependency "jwt", "2.8.0"
+
+
+
+
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 end
